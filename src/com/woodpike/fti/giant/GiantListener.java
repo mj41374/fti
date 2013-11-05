@@ -8,6 +8,8 @@ import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.Random;
+
 /**
  * Created with IntelliJ IDEA.
  * User: kelli1mj
@@ -25,8 +27,15 @@ public class GiantListener implements Listener {
     @EventHandler
     public void onGiantDeath(EntityDeathEvent event){
         if (event.getEntityType() == EntityType.CREEPER){
-            ItemStack emerald = new ItemStack(Material.EMERALD,1);
-            event.getDrops().add(emerald);
+            //If this is a Creeper Entity dying
+            //Then on a 1:4 chance (25%)...
+            Random random = new Random();
+            int chance = random.nextInt(100);
+            if (chance < 25) {
+                //Drop an Emerald
+                ItemStack emerald = new ItemStack(Material.EMERALD,1);
+                event.getDrops().add(emerald);
+            }
 
 
         }
