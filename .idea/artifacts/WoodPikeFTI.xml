@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WoodPikeFTI">
+    <output-path>$PROJECT_DIR$/out/artifacts/WoodPikeFTI</output-path>
+    <root id="archive" name="WoodPikeFTI.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="module-output" name="fti" />
+    </root>
+  </artifact>
+</component>
