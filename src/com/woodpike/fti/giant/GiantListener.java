@@ -1,5 +1,6 @@
 package com.woodpike.fti.giant;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
@@ -26,15 +27,19 @@ public class GiantListener implements Listener {
     //This is the Bukkit Event handler
     @EventHandler
     public void onGiantDeath(EntityDeathEvent event){
-        if (event.getEntityType() == EntityType.CREEPER){
-            //If this is a Creeper Entity dying
-            //Then on a 1:4 chance (25%)...
+        if (event.getEntityType() == EntityType.ZOMBIE){
+            //If this is a Zombie Entity dying
+            //Then on a 1:6 chance (33%)...
             Random random = new Random();
-            int chance = random.nextInt(100);
-            if (chance < 25) {
+            int chance = random.nextInt(5);
+            if (chance < 1) {
                 //Drop an Emerald
+                //This is ironic because Villagers are afraid of Zombies
                 ItemStack emerald = new ItemStack(Material.EMERALD,1);
                 event.getDrops().add(emerald);
+                //And we announce to everyone who got the emerald as thanks!
+                String stPlayerName = event.getEntity().getKiller().getDisplayName();
+                Bukkit.broadcastMessage("*Somewhere a villager thanks " + stPlayerName + " with an emerald*");
             }
 
 
