@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/WoodPikeFTI.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WoodPikeEmeraldZombie.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java" afterPath="$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/plugin.yml" afterPath="$PROJECT_DIR$/src/plugin.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -17,9 +16,9 @@
     <file path="/plugin.yml" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383700188564" ignored="false" />
     <file path="/Plugin.java" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383605291053" ignored="false" />
     <file path="/GiantSystem.java" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383606215440" ignored="false" />
-    <file path="/fragment.java" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383697962573" ignored="false" />
-    <file path="/GiantListener.java" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383700070562" ignored="false" />
-    <file path="/Dummy.txt" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383691371408" ignored="false" />
+    <file path="/fragment.java" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383703278793" ignored="false" />
+    <file path="/GiantListener.java" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383704453170" ignored="false" />
+    <file path="/Dummy.txt" changelist="28a6d412-dff5-4f66-8e80-44f6dbc0bd05" time="1383702399315" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +70,8 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java" line="34" class="com.woodpike.fti.giant.GiantListener" package="com.woodpike.fti.giant">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java" line="36" class="com.woodpike.fti.giant.GiantListener" package="com.woodpike.fti.giant">
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -84,7 +83,7 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="chance &lt; 1&#13;&#13;JAVA" />
+        <option name="CONDITION" value="chance &lt; 6&#13;&#13;JAVA" />
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </line_breakpoints>
@@ -100,7 +99,7 @@
       <file leaf-file-name="plugin.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="2" column="12" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,8 +126,10 @@
       <file leaf-file-name="GiantListener.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="42" selection-start="725" selection-end="725" vertical-scroll-proportion="0.30612245">
-              <folding />
+            <state line="35" column="41" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.33163264">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,8 +154,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/woodpike/fti/Plugin.java" />
         <option value="$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantSystem.java" />
-        <option value="$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java" />
       </list>
     </option>
   </component>
@@ -189,6 +190,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,7 +269,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -284,11 +285,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -308,19 +309,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -348,6 +336,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -434,12 +435,16 @@
       <created>1383617661840</created>
       <updated>1383617661840</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renamed the project and plug-in based on WoodPike's input that this should be about Zombie's dropping emeralds. There is now a 1 in 6 chance that killing a zombie gives you an Emerald and you get thanked by a villager by name.">
+      <created>1383700887311</created>
+      <updated>1383700887311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="820" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -454,7 +459,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.38319087" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16140603" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16140603" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -505,7 +510,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added GIT integrated VCS for IntelliJ IDEA IDE and also made the drop of Emerald a 25% chance instead of happening everytime." />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed the project and plug-in based on WoodPike's input that this should be about Zombie's dropping emeralds. There is now a 1 in 6 chance that killing a zombie gives you an Emerald and you get thanked by a villager by name." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -520,6 +525,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added GIT integrated VCS for IntelliJ IDEA IDE and also made the drop of Emerald a 25% chance instead of happening everytime." />
+    <MESSAGE value="Renamed the project and plug-in based on WoodPike's input that this should be about Zombie's dropping emeralds. There is now a 1 in 6 chance that killing a zombie gives you an Emerald and you get thanked by a villager by name." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,7 +563,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="96" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -583,37 +591,22 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/../BukkitStuff/1.6.4-R2.0/bukkit-1.6.4-R2.0.jar!/org/bukkit/event/entity/EntityEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="40" selection-start="460" selection-end="460" vertical-scroll-proportion="-7.2">
-          <folding />
-        </state>
+        <state line="13" column="40" selection-start="460" selection-end="460" vertical-scroll-proportion="-7.2" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../BukkitStuff/1.6.4-R2.0/bukkit-1.6.4-R2.0.jar!/org/bukkit/inventory/ItemStack.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="11" selection-start="833" selection-end="833" vertical-scroll-proportion="-4.72">
-          <folding />
-        </state>
+        <state line="29" column="11" selection-start="833" selection-end="833" vertical-scroll-proportion="-4.72" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../BukkitStuff/1.6.4-R2.0/bukkit-1.6.4-R2.0.jar!/org/bukkit/event/entity/EntityDeathEvent.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="58" selection-start="954" selection-end="954" vertical-scroll-proportion="-7.6">
-          <folding />
-        </state>
+        <state line="21" column="58" selection-start="954" selection-end="954" vertical-scroll-proportion="-7.6" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fti.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/woodpike/fti/Plugin.java">
@@ -630,10 +623,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/woodpike/fti/giant/GiantListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="42" selection-start="725" selection-end="725" vertical-scroll-proportion="0.30612245">
-          <folding />
+        <state line="35" column="41" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.33163264">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
